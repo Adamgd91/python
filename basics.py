@@ -40,3 +40,23 @@ for i in kidages:
 
 print(abletodrink)
 print(cantdrink)
+
+#### Type Check ####
+my_baby_bool = "true"
+print(type(my_baby_bool))
+my_baby_bool_two = True
+print(type(my_baby_bool_two))
+
+#### ELSE, ELIF, IF STATEMENTS ####
+grade = 86
+
+if grade >= 90:
+  print("A")
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else:
+  print("F")
