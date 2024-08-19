@@ -18,3 +18,4 @@ europe['italy'] = data
 print(europe)
 print(europe.keys())
 print(europe.values())
+

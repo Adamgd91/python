@@ -9,6 +9,9 @@ dicts = {
     "golfer": "Tiger Woods",
     "majors": 15
 }
+kidages = [11,20,11,23,10,14,15,16,25,24,23]
+abletodrink = []
+cantdrink =[]
 #### VARIABLES ####
 
 fullname = f'{fname} {lname}'
@@ -22,5 +25,18 @@ if age > 21:
 else:
     print("You can't drink yet!")
     
-
 print(dicts)
+
+#### FOR LOOPS ####
+
+for i in lists:
+    print(i)
+
+for i in kidages:
+    if i > 21:
+        abletodrink.append(i)
+    else:
+        cantdrink.append(i)
+
+print(abletodrink)
+print(cantdrink)
