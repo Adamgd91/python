@@ -16,3 +16,5 @@ europe['italy'] = data
 
 # Print europe
 print(europe)
+print(europe.keys())
+print(europe.values())
