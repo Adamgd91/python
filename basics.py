@@ -5,6 +5,10 @@ lname = "Davidson"
 canDrink = True
 lists = ["Sarah", 31, "Davidson", 33]
 sets = {"Stranger Things", "LOTR", "Matrix"}
+dicts = {
+    "golfer": "Tiger Woods",
+    "majors": 15
+}
 #### VARIABLES ####
 
 fullname = f'{fname} {lname}'
@@ -19,3 +23,4 @@ else:
     print("You can't drink yet!")
     
 
+print(dicts)
