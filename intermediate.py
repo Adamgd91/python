@@ -19,3 +19,10 @@ print(europe)
 print(europe.keys())
 print(europe.values())
 
+
+#### LISTS ####
+front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
+print(front_display_list)
+
+front_display_list.insert(0,"Pineapple")
+print(front_display_list)
