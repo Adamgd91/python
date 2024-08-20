@@ -45,8 +45,8 @@ def shipping():
     types = input("You want ground or drone? ").strip().lower()
     
     if types not in ['ground', 'drone']:
-        print("Invalid shipping type.")
-        return
+        print("Invalid shipping type. Choose ground or drone!")
+        return shipping()
     
     weight = float(input("How much does your package weigh? "))
     
