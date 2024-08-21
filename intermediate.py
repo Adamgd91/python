@@ -61,3 +61,12 @@ games_sorted = sorted(games)
 
 print(games)
 print(games_sorted)
+
+
+ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
+length = len(ingredients)
+index = 0
+
+while index < length:
+  print(ingredients[index])
+  index += 1
