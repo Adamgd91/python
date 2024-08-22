@@ -42,4 +42,4 @@ def shipping():
             total = weight * 14.25 + drone_flat_charge
         print(f'You are charged based on weight. Total: ${total:.2f}')
 shipping()              
-            
+ #####################################################################     
