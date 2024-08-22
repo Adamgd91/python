@@ -108,3 +108,11 @@ match user_name:
         print("Access Granted.")  
     case default:  
         print("Username not recognized.")  
+######################################################################################
+tshirt_price = 9.75
+shorts_price = 15.50
+mug_price = 5.99
+poster_price = 2.00
+
+max_price = max(tshirt_price, shorts_price,mug_price,poster_price)
+print(max_price)
